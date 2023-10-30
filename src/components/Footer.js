@@ -45,7 +45,6 @@ const Footer = () => {
                 <Link className="text-white py-2 mb-1">Refund Policy</Link>
                 <Link className="text-white py-2 mb-1">Shipping Policy</Link>
                 <Link className="text-white py-2 mb-1">Terms & Conditions</Link>
-                <Link className="text-white py-2 mb-1">Blogs</Link>
               </div>
             </div>
             <div className="col-3">
