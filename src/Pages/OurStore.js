@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import BreadCrumb from '../components/BreadCrumb';
 import Meta from '../components/Meta';
 import ProductCard from '../components/ProductCard';
@@ -6,8 +6,6 @@ import Color from '../components/Color';
 
 
 const OurStore = () => {
-  const [grid,setGrid] = useState(4);
- 
   return (
     <>
     <Meta title= {"Our Store"} />
