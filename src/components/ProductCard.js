@@ -7,10 +7,10 @@ const ProductCard = () => {
     <>
     <div 
       className="col-3">
-      <div className="product-card position-relative">
-        <fiv className = "wishlist-icon position-absolute">
+      <Link to=":id" className="product-card position-relative">
+        <div className = "wishlist-icon position-absolute">
           <Link><img src="images/wish.svg" alt="wishlist" /></Link>
-        </fiv>
+        </div>
       <div className="product-image">
           <img 
             src="images/watch.jpg" 
@@ -22,14 +22,14 @@ const ProductCard = () => {
                 <h5 className="product-title"> Kids headphones bulk 10 pack multi colored for students </h5>
                 <p className="price">Rs 6500.00</p>
               </div>
-      </div>  
+      </Link>  
     </div>
     <div 
       className="col-3">
-      <div className="product-card position-relative">
-        <fiv className = "wishlist-icon position-absolute">
+      <Link to=":id" className="product-card position-relative">
+        <div className = "wishlist-icon position-absolute">
           <Link><img src="images/wish.svg" alt="wishlist" /></Link>
-        </fiv>
+        </div>
       <div className="product-image">
           <img 
             src="images/watch.jpg" 
@@ -41,7 +41,7 @@ const ProductCard = () => {
                 <h5 className="product-title"> Kids headphones bulk 10 pack multi colored for students </h5>
                 <p className="price">Rs 6500.00</p>
               </div>
-      </div>  
+      </Link>  
     </div>
     </> 
   )
