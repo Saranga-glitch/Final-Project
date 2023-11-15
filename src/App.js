@@ -13,6 +13,8 @@ import Forgotpassword from './Pages/Forgotpassword';
 import Signup from './Pages/Signup';
 import Resetpassword from './Pages/Resetpassword';
 import Singleproduct from './Pages/Singleproduct';
+import Cart from './Pages/Cart';
+import Checkout from './Pages/Checkout';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
       <Route path="contact" element={<Contact />} />
       <Route path="product" element={<OurStore />} />
       <Route path="product/:id" element={<Singleproduct/>} />
+      <Route path="cart" element={<Cart />} />
+      <Route path="checkout" element={<Checkout />} />
       <Route path="compare-product" element={<CompareProducts/>} />
       <Route path="wishlist" element={<Wishlist/>} />
       <Route path="Login" element={<Login/>} />
